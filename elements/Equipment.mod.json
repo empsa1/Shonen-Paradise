@@ -1,0 +1,217 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 480,
+    "height": 480,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Equipment",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Equipment",
+          "x": 189,
+          "y": 6
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #0",
+          "x": 50,
+          "y": 67
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #1",
+          "x": 77,
+          "y": 67
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 4,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #4",
+          "x": 296,
+          "y": 67
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 5,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #5",
+          "x": 326,
+          "y": 67
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 6,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #6",
+          "x": 355,
+          "y": 67
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 7,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #7",
+          "x": 385,
+          "y": 67
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Quickcast",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Quickcast",
+          "x": 326,
+          "y": 38
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Eyes",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Eyes",
+          "x": 60,
+          "y": 39
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Kunai",
+          "width": 51,
+          "height": 20,
+          "name": "Kunai",
+          "x": 186,
+          "y": 31
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Shuriken",
+          "width": 67,
+          "height": 20,
+          "name": "Shuriken",
+          "x": 179,
+          "y": 51
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "FlyingKunai",
+          "width": 82,
+          "height": 20,
+          "name": "FlyingKunai",
+          "x": 171,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Senbon",
+          "width": 56,
+          "height": 20,
+          "name": "Senbon",
+          "x": 183,
+          "y": 91
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<- Previous Page",
+          "onClick": {
+            "name": "EquipmentToPlayerProfile"
+          },
+          "width": 108,
+          "height": 20,
+          "name": "<- Previous Page",
+          "x": 3,
+          "y": 214
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next Page ->",
+          "onClick": {
+            "name": "EquipmentTo1"
+          },
+          "width": 87,
+          "height": 20,
+          "name": "Next Page ->",
+          "x": 335,
+          "y": 214
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

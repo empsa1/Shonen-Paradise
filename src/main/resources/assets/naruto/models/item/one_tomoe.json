@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "naruto:items/sharingan-icons-1-5-1-tomoe-128-png-icon-thumbnail"
+  }
+}

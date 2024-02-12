@@ -1,0 +1,70 @@
+{
+  "_fv": 33,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Chakra",
+          "color": {
+            "value": -16711681,
+            "falpha": 0.0
+          },
+          "name": "Chakra",
+          "x": 321,
+          "y": 225
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Shurikens",
+          "color": {
+            "value": -16777012,
+            "falpha": 0.0
+          },
+          "name": "Shurikens",
+          "x": 2,
+          "y": 18
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Kunais",
+          "color": {
+            "value": -16738048,
+            "falpha": 0.0
+          },
+          "name": "Kunais",
+          "x": 17,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "JinChakra",
+          "color": {
+            "value": -52480,
+            "falpha": 0.0
+          },
+          "name": "JinChakra",
+          "x": 305,
+          "y": 209
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

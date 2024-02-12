@@ -1,0 +1,12 @@
+{
+  "_fv": 33,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "DOWN",
+    "keyBindingName": "Player Profile GUI",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "SkillSet1ToPlayerProfifle"
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 480,
+    "height": 480,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Player Profile",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Player Profile",
+          "x": 170,
+          "y": 16
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Player name: <ENBT:text:tagName>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Player name: <ENBT:text:tagName>",
+          "x": 10,
+          "y": 42
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Village: ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Village: ",
+          "x": 30,
+          "y": 56
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Village Rank: ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Village Rank: ",
+          "x": 4,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "XP/nextLvl: <VAR:current_xp> / <VAR:xp_to_next_level>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "XP/nextLvl: <VAR:current_xp> / <VAR:xp_to_next_level>",
+          "x": 14,
+          "y": 86
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Level: <VAR:integer:Level>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Level: <VAR:integer:Level>",
+          "x": 40,
+          "y": 102
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "BodyCount: ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "BodyCount: ",
+          "x": 19,
+          "y": 118
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Known as: ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Known as: ",
+          "x": 24,
+          "y": 133
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Nat Release: ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Nat Release: ",
+          "x": 9,
+          "y": 148
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next Page ->",
+          "onClick": {
+            "name": "PlayerProfileToEquipment"
+          },
+          "width": 87,
+          "height": 20,
+          "name": "Next Page ->",
+          "x": 332,
+          "y": 213
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "RESET SKILL POINTS",
+          "width": 119,
+          "height": 20,
+          "name": "RESET SKILL POINTS",
+          "x": 3,
+          "y": 167
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

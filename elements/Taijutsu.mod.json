@@ -1,0 +1,20 @@
+{
+  "_fv": 33,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Taijutsu",
+    "icon": ".png",
+    "color": {
+      "value": -52429,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "TaijutsuEffectStartedapplied"
+    }
+  }
+}

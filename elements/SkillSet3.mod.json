@@ -1,0 +1,100 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 480,
+    "height": 480,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Utilities",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Utilities",
+          "x": 172,
+          "y": 13
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Available Skill Points: <VAR:Skill_Points>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Available Skill Points: <VAR:Skill_Points>",
+          "x": 100,
+          "y": 187
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "<-Previous Page",
+          "onClick": {
+            "name": "SkillSet3ToSkillSet2"
+          },
+          "width": 103,
+          "height": 20,
+          "name": "<-Previous Page",
+          "x": 5,
+          "y": 212
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next Page ->",
+          "width": 87,
+          "height": 20,
+          "name": "Next Page ->",
+          "x": 328,
+          "y": 212
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Speed: <VAR:Speed> / <VAR:MAX_SPEED>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Speed: <VAR:Speed> / <VAR:MAX_SPEED>",
+          "x": 61,
+          "y": 51
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "+",
+          "onClick": {
+            "name": "IncreaseSpeed"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "+",
+          "x": 27,
+          "y": 46
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

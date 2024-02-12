@@ -1,0 +1,1313 @@
+{
+  "mod_elements": [
+    {
+      "name": "Increasexp",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "increasexp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlayerProfile",
+      "type": "gui",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_profile",
+      "path": "~/NinjaEquipmentGUI"
+    },
+    {
+      "name": "SkillSet1",
+      "type": "gui",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skill_set_1",
+      "path": "~/NinjaEquipmentGUI"
+    },
+    {
+      "name": "SkillSet2",
+      "type": "gui",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skill_set_2",
+      "path": "~/NinjaEquipmentGUI"
+    },
+    {
+      "name": "SkillSet3",
+      "type": "gui",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skill_set_3",
+      "path": "~/NinjaEquipmentGUI"
+    },
+    {
+      "name": "SkillSet1ToSkillSet2",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skill_set_1_to_skill_set_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/NinjaEquipmentGUI/PageButtons"
+    },
+    {
+      "name": "SKillSet2ToSkillSet3",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_kill_set_2_to_skill_set_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/NinjaEquipmentGUI/PageButtons"
+    },
+    {
+      "name": "SkillSet3ToSkillSet2",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skill_set_3_to_skill_set_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/NinjaEquipmentGUI/PageButtons"
+    },
+    {
+      "name": "SkillSet2ToSkillSet1",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skill_set_2_to_skill_set_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/NinjaEquipmentGUI/PageButtons"
+    },
+    {
+      "name": "SkillSet1ToPlayerProfifle",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skill_set_1_to_player_profifle",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/NinjaEquipmentGUI/PageButtons"
+    },
+    {
+      "name": "IncreaseSpeed",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "increase_speed",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/NinjaEquipmentGUI/IncreaseSkills"
+    },
+    {
+      "name": "IncreaseTaijutsu",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "increase_taijutsu",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/NinjaEquipmentGUI/IncreaseSkills"
+    },
+    {
+      "name": "IncreaseKenjutsu",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "increase_kenjutsu",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/NinjaEquipmentGUI/IncreaseSkills"
+    },
+    {
+      "name": "IncreaseHealth",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "increase_health",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/NinjaEquipmentGUI/IncreaseSkills"
+    },
+    {
+      "name": "IncreaseArmor",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "increase_armor",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/NinjaEquipmentGUI/IncreaseSkills"
+    },
+    {
+      "name": "ExecuteSpeed",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "execute_speed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/NinjaEquipmentGUI/TriggerSkills"
+    },
+    {
+      "name": "PlayerProfileGUI",
+      "type": "keybind",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_profile_gui",
+      "path": "~/NinjaEquipmentGUI"
+    },
+    {
+      "name": "TaijutsuEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taijutsu_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/NinjaEquipmentGUI/Effects"
+    },
+    {
+      "name": "Taijutsu",
+      "type": "potioneffect",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taijutsu",
+      "path": "~/NinjaEquipmentGUI/Effects"
+    },
+    {
+      "name": "ExecuteTaijutsu",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "execute_taijutsu",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/NinjaEquipmentGUI/TriggerSkills"
+    },
+    {
+      "name": "ExecuteKenjutsu",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "execute_kenjutsu",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/NinjaEquipmentGUI/TriggerSkills"
+    },
+    {
+      "name": "Kenjutsu",
+      "type": "potioneffect",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kenjutsu",
+      "path": "~/NinjaEquipmentGUI/Effects"
+    },
+    {
+      "name": "KenjutsuEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kenjutsu_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/NinjaEquipmentGUI/Effects"
+    },
+    {
+      "name": "Weaponsforgroup",
+      "type": "tag",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weaponsforgroup"
+    },
+    {
+      "name": "Pools",
+      "type": "overlay",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pools",
+      "path": "~/NinjaEquipmentGUI"
+    },
+    {
+      "name": "Kubikiribocho",
+      "type": "tool",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kubikiribocho",
+      "path": "~/7MistSwords"
+    },
+    {
+      "name": "KubikiribochoLeftClick",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kubikiribocho_left_click",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/7MistSwords"
+    },
+    {
+      "name": "NarutoParadise",
+      "type": "tab",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "naruto_paradise"
+    },
+    {
+      "name": "Kunai",
+      "type": "rangeditem",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kunai",
+      "path": "~/NinjaWeapons/Kunai"
+    },
+    {
+      "name": "Playerthrowskunai",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "playerthrowskunai",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/NinjaWeapons/Kunai"
+    },
+    {
+      "name": "KunaiKey",
+      "type": "keybind",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kunai_key",
+      "path": "~/NinjaWeapons/Kunai"
+    },
+    {
+      "name": "Equipment",
+      "type": "gui",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "equipment",
+      "path": "~/NinjaEquipmentGUI"
+    },
+    {
+      "name": "PlayerProfileToEquipment",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_profile_to_equipment",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/NinjaEquipmentGUI/PageButtons"
+    },
+    {
+      "name": "EquipmentTo1",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "equipment_to_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/NinjaEquipmentGUI/PageButtons"
+    },
+    {
+      "name": "EquipmentToPlayerProfile",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "equipment_to_player_profile",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/NinjaEquipmentGUI/PageButtons"
+    },
+    {
+      "name": "OneTomoe",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "one_tomoe",
+      "path": "~/Sharingan"
+    },
+    {
+      "name": "Group",
+      "type": "code",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "group"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Taijutsu",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0.0"
+    },
+    {
+      "name": "Kenjutsu",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Genjutsu",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Ninjutsu",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Speed",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Chakra",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "100.0"
+    },
+    {
+      "name": "Chakra_Regen",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Chakra_Control",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Health",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Health_Regen",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Armor",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Skill_Points",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Level",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "xp_to_next_level",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "100.0"
+    },
+    {
+      "name": "current_xp",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Rank",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Tools",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "10.0"
+    },
+    {
+      "name": "MAX_TAIJUTSU",
+      "type": "number",
+      "scope": "world",
+      "value": "100.0"
+    },
+    {
+      "name": "MAX_KENJUTSU",
+      "type": "number",
+      "scope": "world",
+      "value": "100.0"
+    },
+    {
+      "name": "MAX_GENJUTSU",
+      "type": "number",
+      "scope": "world",
+      "value": "100.0"
+    },
+    {
+      "name": "MAX_NINJUTSU",
+      "type": "number",
+      "scope": "world",
+      "value": "100.0"
+    },
+    {
+      "name": "MAX_SPEED",
+      "type": "number",
+      "scope": "world",
+      "value": "100.0"
+    },
+    {
+      "name": "MAX_CHAKRA",
+      "type": "number",
+      "scope": "world",
+      "value": "100.0"
+    },
+    {
+      "name": "MAX_HEALTH",
+      "type": "number",
+      "scope": "world",
+      "value": "100.0"
+    },
+    {
+      "name": "MAX_LEVEL",
+      "type": "number",
+      "scope": "world",
+      "value": "100.0"
+    },
+    {
+      "name": "MAX_ARMOR",
+      "type": "number",
+      "scope": "world",
+      "value": "100.0"
+    },
+    {
+      "name": "THROWABLE_TOOL",
+      "type": "itemstack",
+      "scope": "player_lifetime",
+      "value": "ItemStack.EMPTY"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "effect.taijutsu": "Taijutsu",
+      "itemGroup.tabnaruto_paradise": "Naruto Paradise",
+      "effect.kenjutsu": "Kenjutsu",
+      "item.naruto.kunai": "Kunai",
+      "item.naruto.kubikiribocho": "Kubikiribocho",
+      "item.naruto.one_tomoe": "One Tomoe",
+      "key.naruto.player_profile_gui": "Player Profile GUI",
+      "key.naruto.kunai_key": "Kunai Key"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "NinjaEquipmentGUI",
+        "children": [
+          {
+            "name": "PageButtons",
+            "children": []
+          },
+          {
+            "name": "IncreaseSkills",
+            "children": []
+          },
+          {
+            "name": "TriggerSkills",
+            "children": []
+          },
+          {
+            "name": "Effects",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "7MistSwords",
+        "children": [
+          {
+            "name": "Kubikiribocho",
+            "children": []
+          },
+          {
+            "name": "Samehada",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Sharingan",
+        "children": [
+          {
+            "name": "Abilities",
+            "children": [
+              {
+                "name": "Tsukuyomi",
+                "children": []
+              },
+              {
+                "name": "Kamui",
+                "children": []
+              },
+              {
+                "name": "Amaterasu",
+                "children": []
+              },
+              {
+                "name": "Susano",
+                "children": [
+                  {
+                    "name": "Weapons",
+                    "children": []
+                  },
+                  {
+                    "name": "Types",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Byakugan",
+        "children": [
+          {
+            "name": "Abilities",
+            "children": [
+              {
+                "name": "64 palm triangle",
+                "children": []
+              },
+              {
+                "name": "hamster ball",
+                "children": []
+              },
+              {
+                "name": "xray",
+                "children": []
+              },
+              {
+                "name": "8 trigrams palm",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "TailedBeasts",
+        "children": []
+      },
+      {
+        "name": "Jutsu",
+        "children": [
+          {
+            "name": "E-Tier",
+            "children": [
+              {
+                "name": "Ninjutsu",
+                "children": [
+                  {
+                    "name": "Body Replacement Technique",
+                    "children": []
+                  },
+                  {
+                    "name": "Cloak of Invisibility Technique",
+                    "children": []
+                  },
+                  {
+                    "name": "Clone Technique",
+                    "children": []
+                  },
+                  {
+                    "name": "One Thousand Years of Death",
+                    "children": []
+                  },
+                  {
+                    "name": "Rope Escape Technique",
+                    "children": []
+                  },
+                  {
+                    "name": "Sexy Technique",
+                    "children": []
+                  },
+                  {
+                    "name": "Transformation Technique",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "D-Tier",
+            "children": [
+              {
+                "name": "Yin Release",
+                "children": [
+                  {
+                    "name": "Mist Servant Technique",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Body Flicker Techique",
+                "children": []
+              },
+              {
+                "name": "Dynamic Entry",
+                "children": []
+              },
+              {
+                "name": "Earth Release",
+                "children": [
+                  {
+                    "name": "Double Suicide Decapitation Technique",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Haze Clone Technique",
+                "children": []
+              },
+              {
+                "name": "Water Release",
+                "children": [
+                  {
+                    "name": "Hiding in Mist Technique",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Leaf Gale",
+                "children": []
+              },
+              {
+                "name": "Leaf Whirlwind",
+                "children": []
+              },
+              {
+                "name": "Manipulated Shuriken Technique",
+                "children": []
+              },
+              {
+                "name": "Temporary Paralysis Technique",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "C-Tier",
+            "children": [
+              {
+                "name": "Arhat Fist",
+                "children": []
+              },
+              {
+                "name": "Cherry Blossom Impact",
+                "children": []
+              },
+              {
+                "name": "Drunken Fist",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "B-Tier",
+            "children": []
+          },
+          {
+            "name": "A-Tier",
+            "children": []
+          },
+          {
+            "name": "S-Tier",
+            "children": []
+          },
+          {
+            "name": "Forbidden",
+            "children": []
+          },
+          {
+            "name": "Inuzuka Clan",
+            "children": [
+              {
+                "name": "Beast Human Clone",
+                "children": []
+              },
+              {
+                "name": "Four Legs Technique",
+                "children": []
+              },
+              {
+                "name": "Passing Fang",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Dance of the Shikigami",
+            "children": [
+              {
+                "name": "Paper Shuriken",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Snake Manipulation",
+            "children": [
+              {
+                "name": "Binding Snake Glare Spell",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Crow Manipulation",
+            "children": [
+              {
+                "name": "Crow Clone Technique",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Demonic Illusion",
+            "children": [
+              {
+                "name": "Hell Viewing Technique",
+                "children": []
+              },
+              {
+                "name": "False Surrodings Technique",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Puppeteer",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "KekkeiGenkai",
+        "children": [
+          {
+            "name": "Explosion Release",
+            "children": []
+          },
+          {
+            "name": "Dust Release",
+            "children": []
+          },
+          {
+            "name": "Wood Release",
+            "children": []
+          },
+          {
+            "name": "Bone Release",
+            "children": []
+          },
+          {
+            "name": "Ice Release",
+            "children": []
+          },
+          {
+            "name": "Blood Release",
+            "children": []
+          },
+          {
+            "name": "Scorch Release",
+            "children": []
+          },
+          {
+            "name": "Boil Release",
+            "children": []
+          },
+          {
+            "name": "Lava Release",
+            "children": []
+          },
+          {
+            "name": "Magnet Release",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "NinjaWeapons",
+        "children": [
+          {
+            "name": "Kunai",
+            "children": []
+          },
+          {
+            "name": "Shuriken",
+            "children": []
+          },
+          {
+            "name": "Explosive Tag",
+            "children": []
+          },
+          {
+            "name": "Tanto",
+            "children": []
+          },
+          {
+            "name": "Chakura To",
+            "children": []
+          },
+          {
+            "name": "Triple Bladed Claw",
+            "children": []
+          },
+          {
+            "name": "Clever Sword",
+            "children": []
+          },
+          {
+            "name": "Metal Gauntlet",
+            "children": []
+          },
+          {
+            "name": "Fuma Shuriken",
+            "children": []
+          },
+          {
+            "name": "Smoke Bomb",
+            "children": []
+          },
+          {
+            "name": "Senbon",
+            "children": []
+          },
+          {
+            "name": "3-prone Kunai",
+            "children": []
+          },
+          {
+            "name": "Gunbai",
+            "children": []
+          },
+          {
+            "name": "Adamantine Staff",
+            "children": []
+          },
+          {
+            "name": "Janshin Scythe",
+            "children": []
+          },
+          {
+            "name": "Barrier Tag",
+            "children": []
+          },
+          {
+            "name": "Shinobi Katana",
+            "children": []
+          },
+          {
+            "name": "Kusanagi",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Gates Release",
+        "children": [
+          {
+            "name": "Mecaniqs",
+            "children": []
+          },
+          {
+            "name": "First Gate",
+            "children": []
+          },
+          {
+            "name": "Second Gate",
+            "children": []
+          },
+          {
+            "name": "Third Gate",
+            "children": []
+          },
+          {
+            "name": "Forth Gate",
+            "children": []
+          },
+          {
+            "name": "Fifth Gate",
+            "children": []
+          },
+          {
+            "name": "Sixth Gate",
+            "children": []
+          },
+          {
+            "name": "Seventh Gate",
+            "children": []
+          },
+          {
+            "name": "Eight Gate",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "naruto",
+    "modName": "Naruto",
+    "version": "1.0.0",
+    "author": "bodyflicker, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.paradise.naruto",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}
